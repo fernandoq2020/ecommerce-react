@@ -12,7 +12,6 @@ export default function Checkout() {
   } = useCart();
 
   const cartItems = getCartItemsWithProducts();
-  console.log(cartItems);
   const total = getCartTotal();
 
   function placeOrder() {
