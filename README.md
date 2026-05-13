@@ -1,16 +1,48 @@
-# React + Vite
+# 🛍️ ShopHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopHub is a modern e-commerce frontend application built with React and Vite.  
+This project was created as a practice project to improve frontend development skills, component architecture, state management, and responsive UI design.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 https://ecommerce-react-nu-nine.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+- Product listing page
+- Product details view
+- Shopping cart functionality
+- Responsive design
+- Modern UI with reusable React components
+- Fast development setup using Vite
+- Client-side routing
+- Clean and organized project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- React Router
+- Context API / State Management
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── components/     # Reusable UI components
+├── pages/          # Application pages
+├── assets/         # Images and static files
+├── context/        # Global state management
+├── routes/         # Route configuration
+├── App.jsx
+└── main.jsx
